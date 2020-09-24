@@ -1,0 +1,20 @@
+.hidden{
+    display: none
+}
+.timer {
+position: absolute;
+top: 15px;
+right: 15px;
+}
+.scores {
+    position: absolute;
+    top: 15px;
+    left: 15px; 
+}
+.container{
+    /* margin: 100px auto 0 auto; */
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+}
