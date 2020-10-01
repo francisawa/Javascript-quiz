@@ -23,7 +23,21 @@
 
     <div id="questionPart" class="hidden">
         <h1 id="question"></h1>
-        <div id="answers"></div>
+        <div id="answers" class="choiceList"></div>
+    </div>
+    <div id="gameOver" class="hidden">
+        <h2>All done</h2>
+        <p>Your final score is <span id="finalScore"></span></p>
+        <p>Enter your initials: 
+            <input type="text" id="initials"/>
+            <button id="submitBtn">Submit</button>
+        </p>
+    </div>
+    <div id="highScorePage" class="hidden">
+        <h1>HighScores</h1>
+        <h3 id="highscores"></h3>
+
+        <button id="startOver">Go Again</button>
     </div>
     <script src="quiz.js"></script>
 </body>
